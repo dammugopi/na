@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+
+.main{
+  display: flex;
+  gap: 1px;
+}
+.name{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+ 
+span{
+  color: rgb(13, 12, 11);
+  font-weight: 1000;
+  font-size: 30px;  
+}
+.logo img{
+  height: 4vw;
+  margin-top: 8px;
+}
+ 
+header{
+   
+  font-style: normal;
+  background-image: linear-gradient( to bottom right,
+  rgb(238, 85, 20),rgb(222, 211, 60) ,rgb(0, 0, 0)) ;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+gap: 60vw;
+   
+}
+.atags{
+  
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+li{
+  list-style: none; 
+}
+li a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+.poem{
+  background-color: rgba(243, 236, 139, 1);
+  padding: 10px;
+  background-image:linear-gradient(to bottom right,
+  rgba(239, 113, 10, 0.78),rgba(243, 236, 139, 1) ,rgb(126, 93, 93),rgba(255, 252, 6, 1));
+  font-size: 0.8em;
+  text-align: justify;
+  height:30% ;
+  width: 30%;
+  border-radius: 10px;
+
+}
+
+.pngegg{
+   height: 97vh;
+   width: 60vw;
+}
+.poemandimg{
+  display: flex;
+  gap: 8vw;
+
+}
+ 
+main{
+  font-size: 20px;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  padding: 20px;
+  background-image:repeating-linear-gradient( to bottom right,rgba(4, 4, 4, 1),
+  rgb(136, 79, 38),rgb(222, 211, 60) ,rgb(0, 0, 0));
+}
